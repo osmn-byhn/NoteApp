@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono&display=swap');
+$font-1: 'Dancing Script', cursive;
+$font-2: 'Roboto Mono', monospace;
+nav {
+  padding-top: 2vh;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      list-style: none;
+      i {
+        color: white;
+        font-size: 19px;
+        padding-right: 3vw;
+      }
+      a {
+        text-decoration: none;
+        h4 {
+          color: white;
+          font-family: $font-2;
+          span {
+            font-family: $font-1;
+          }
+        }
+      }
+    }
+  }
+}

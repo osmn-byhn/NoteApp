@@ -1,0 +1,68 @@
+.app {
+  margin-left: 25vw;
+  margin-top: 10vh;
+  width: 50vw;
+  .addItem {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 36px;
+    .input {
+      background: transparent;
+      width: 50vw;
+      border: 3px solid #dd00dd;
+      padding: 6px;
+      outline: none;
+      color: white;
+      transition: 300ms;
+
+    }
+    .button {
+      background: #dd00dd;
+      border: 3px solid #dd00dd;
+      color: black;
+      i {
+        font-size: 23px;
+      }
+    }
+  }
+  .notes {
+    margin-top: 8vh;
+    .items {
+      margin-top: 2vh;
+      p {
+        display: flex;
+        justify-content: space-between;
+        input {
+          background: transparent;
+          color: white;
+          border: 2px solid #dd00dd;
+          outline: none;
+          padding: 5px;
+          width: 90%;
+        }
+        .number {
+          background: #dd00dd;
+          padding-left: 5px;
+          padding-right: 5px;
+          border-radius: 5px;
+          margin-right: 2vw;
+          color: black;
+        }
+        .icons {
+          .pencil {
+            margin-right: 10px;
+            cursor: pointer;
+          }
+          .remote {
+            margin-right: 10px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+.hide {
+  display: none;
+}

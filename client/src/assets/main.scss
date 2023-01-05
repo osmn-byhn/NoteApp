@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  color: white;
+}
+.light {
+  color: black;
+  background: white;
+  div {
+    nav {
+      ul {
+        li {
+          i {
+            color: black;
+          }
+          a {
+            h4 {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+  .app {
+    .addItem {
+      .input {
+        color: black;
+      }
+      .button {
+        color: white;
+      }
+    }
+    .items {
+      p {
+        input {
+          color: black;
+        }
+        span {
+          .number {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
